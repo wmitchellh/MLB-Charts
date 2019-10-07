@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <!-- C3 styles -->
+    <link href="css/c3.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+    <h1>MLB Pitching Statistics</h1>
+    <p>These charts deal with MLB pitching data. The first bar chart displays
+      the 10 MLB pitchers with the lowest ERAs. In the line graph below that,
+      we see how Hyun-Jin Ryu's ERA has changed since 2013, when he was signed
+      to the LA Dodgers. The pie chart shows that on average, MLB pitchers throw
+      63% strikes and 37% balls.</p>
+
+    <div class="row">
+      <div id="era-chart" class="chart col-md-12"></div>
+      <div id="strikeBall-chart" class="half-chart col-md-6"></div>
+      <div id="ryuERA-chart" class="half-chart col-md-6"></div>
+
+    </div>
+
+  </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+    <!-- D3, C3 stuff -->
+    <script src="js/d3.min.js"></script>
+    <script src="js/c3.min.js"></script>
+    <!-- <script src="js/chart-dynamic.js"></script> -->
+    <!-- <script src="js/chart.js"></script> -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
